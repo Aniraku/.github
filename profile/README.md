@@ -1,46 +1,51 @@
-# Aniraku
-
-<p align="center"><strong>Open-source tools for anime discovery and viewing.</strong></p>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20source-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Open source"/>
-  <img src="https://img.shields.io/badge/React%20%2B%20Vite-06B6D4?style=for-the-badge&logo=react&logoColor=white" alt="React and Vite"/>
-  <img src="https://img.shields.io/badge/Go%20backend-8B5CF6?style=for-the-badge&logo=go&logoColor=white" alt="Go backend"/>
+  <img src="./assets/aniraku-banner.svg" alt="Aniraku — a quieter way to watch" width="100%" />
 </p>
 
-Aniraku builds a focused anime experience around discovery, metadata, personal libraries, and adaptable playback. The organization separates the browser client from the service layer so each repository can evolve with a clear technical boundary.
+<p align="center">
+  <a href="https://www.aniraku.tech/">Website</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Aniraku/Aniraku">Frontend</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Aniraku/Aniraku-Backend">Backend</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://discord.gg/aniraku">Community</a>
+</p>
 
-## Repositories
+## The idea
 
-| Repository | Role | Primary verified stack |
-|---|---|---|
-| [Aniraku](https://github.com/Aniraku/Aniraku) | React-based discovery and viewing frontend | React, JSX, Vite, CSS, AniList, Supabase client |
-| [Aniraku-Backend](https://github.com/Aniraku/Aniraku-Backend) | API, authentication, metadata, and provider coordination | Go 1.24, Chi, Zerolog, Supabase JWT/JWKS |
-| [.github](https://github.com/Aniraku/.github) | Organization-wide community configuration | GitHub profile and repository governance |
+Aniraku is an open-source anime experience built around **less noise and more continuity**. Find something worth watching, keep your library close, and move from discovery to playback without losing the thread.
 
-## Architecture at a Glance
+## The system
+
+| | Repository | What it owns |
+|:--:|:--|:--|
+| `01` | [Aniraku](https://github.com/Aniraku/Aniraku) | React/Vite client for discovery, profiles, libraries, and viewing |
+| `02` | [Aniraku-Backend](https://github.com/Aniraku/Aniraku-Backend) | Go service for API, authentication, metadata, and provider coordination |
+| `03` | [.github](https://github.com/Aniraku/.github) | Organization-wide profile and community configuration |
+
+## Under the hood
 
 ```text
-React/Vite client
-       |
-       v
-Go API service ── Supabase authentication
-       |
-       +── AniList metadata
-       +── Miruro provider
-       +── Senshi HLS provider
+React + Vite client
+        │
+        ▼
+Go API service ─── Supabase authentication
+        │
+        ├── AniList metadata
+        ├── Miruro provider
+        └── Senshi HLS provider
 ```
 
-The architecture diagram reflects repository evidence and is intentionally high-level. Configuration values, credentials, private operational details, and upstream secrets do not belong in this profile.
+The repositories are intentionally separated by responsibility. The public profile documents the shape of the system, never its secrets or private operational configuration.
 
-## Community Standards
+## What we care about
 
-We value focused product design, accessible interfaces, maintainable code, responsible upstream usage, and respectful collaboration. Read each repository’s contribution guide before opening a pull request, and report security concerns through the appropriate private channel rather than a public issue.
+**Calm interfaces.** The product should make room for the content rather than compete with it.
 
-## Links
+**Reliable edges.** Provider fallbacks, explicit errors, and careful boundaries matter more than clever abstractions.
 
-Visit the [Aniraku website](https://www.aniraku.tech/), browse the [organization repositories](https://github.com/Aniraku), or join the [community Discord](https://discord.gg/aniraku).
+**Open contribution.** Good ideas are welcome when they arrive with context, tests, and respect for the project’s legal and community standards.
 
----
+## Start here
+
+Read the project-specific [contribution guide](https://github.com/Aniraku/Aniraku/blob/main/CONTRIBUTING.md) before opening a pull request. For security concerns, use a private disclosure channel instead of a public issue.
 
 <p align="center"><sub>Built openly by the Aniraku community. Please respect applicable content rights and service terms.</sub></p>
