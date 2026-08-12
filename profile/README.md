@@ -74,8 +74,7 @@ one product
 ## Organization pulse
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Aniraku&show_icons=true&hide_border=true&bg_color=00000000&title_color=A78BFA&text_color=94A3B8&icon_color=60A5FA&rank_icon=github&include_all_commits=true" alt="Aniraku GitHub statistics" height="180" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Aniraku&layout=compact&hide_border=true&bg_color=00000000&title_color=A78BFA&text_color=94A3B8&langs_count=6" alt="Aniraku top languages" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aniraku&theme=github_dark&show_icons=true&hide_border=true&bg_color=00000000&title_color=A78BFA&text_color=94A3B8&icon_color=60A5FA&rank_icon=github&include_all_commits=true" alt="Aniraku GitHub statistics" height="180" />
 </p>
 
 <p align="center">
