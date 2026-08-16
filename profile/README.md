@@ -44,11 +44,11 @@ one product
 
 ### Aniraku / Native Android
 
-<p><strong>v2.5.Alpha is the current standard direct-distribution release.</strong><br/>The Expo and React Native client brings Aniraku discovery, source-aware native playback, maximum-quality offline saves for eligible direct sources, and the same protected AniList/MyAnimeList library-sync route used by aniraku.tech to Android 9+ devices.</p>
+<p><strong>v2.5 is the current stable direct-distribution release.</strong><br/>The Expo and React Native client brings Aniraku discovery, source-aware native playback, maximum-quality Downloads-folder saves for eligible direct sources, and the same protected AniList/MyAnimeList library-sync route used by aniraku.tech to Android 9+ devices.</p>
 
 <p>
   <a href="https://aniraku.github.io/Aniraku-App/"><img src="https://img.shields.io/badge/App%20site-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Aniraku Android app site" /></a>
-  <a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v2.5.Alpha"><img src="https://img.shields.io/badge/v2.5.Alpha-FF4D4D?style=flat-square&logo=github&logoColor=111827" alt="Aniraku v2.5.Alpha release" /></a>
+  <a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v2.5"><img src="https://img.shields.io/badge/v2.5-FF4D4D?style=flat-square&logo=github&logoColor=111827" alt="Aniraku v2.5 stable release" /></a>
   <a href="https://rookieenough.github.io/Orion-Data/redirect.html?id=aniraku"><img src="https://img.shields.io/badge/Orion%20Store-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Get Aniraku on Orion Store" /></a>
 </p>
 
