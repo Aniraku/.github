@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://www.aniraku.tech/"><img src="https://img.shields.io/badge/Live%20experience-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live experience" /></a>
   <a href="https://github.com/Aniraku/Aniraku"><img src="https://img.shields.io/badge/Frontend-111827?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Frontend repository" /></a>
+  <a href="https://aniraku.github.io/Aniraku-App/"><img src="https://img.shields.io/badge/Native%20Android-111827?style=for-the-badge&logo=android&logoColor=96D37B" alt="Aniraku Native Android" /></a>
   <a href="https://discord.gg/aniraku"><img src="https://img.shields.io/badge/Community-111827?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord community" /></a>
 </p>
 
@@ -41,13 +42,27 @@ one product
   <a href="https://github.com/Aniraku/Aniraku-Backend/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-111827?style=flat-square&logo=gitbook&logoColor=F8FAFC" alt="Backend contribution guide" /></a>
 </p>
 
+### Aniraku / Native Android
+
+<p><strong>v2.1.Alpha is the current standard direct-distribution release.</strong><br/>The Expo and React Native client brings Aniraku discovery, library sync, source-aware native playback, quality selection, embedded-player fallback, and an intentionally restrained Nothing OS-inspired interface to Android 9+ devices.</p>
+
+<p>
+  <a href="https://aniraku.github.io/Aniraku-App/"><img src="https://img.shields.io/badge/App%20site-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Aniraku Android app site" /></a>
+  <a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v2.1.Alpha"><img src="https://img.shields.io/badge/v2.1.Alpha-FF4D4D?style=flat-square&logo=github&logoColor=111827" alt="Aniraku v2.1.Alpha release" /></a>
+  <a href="https://rookieenough.github.io/Orion-Data/redirect.html?id=aniraku"><img src="https://img.shields.io/badge/Orion%20Store-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Get Aniraku on Orion Store" /></a>
+</p>
+
+> **Package:** `aniraku.anime.app` · **Compatibility:** Android 9+ (API 28+) · ARM32 + ARM64 · **Install:** direct APK, without Google Play.
+
+<p><a href="https://github.com/Aniraku/Aniraku-App"><strong>Explore the Android source and downloads →</strong></a></p>
+
 <img src="./assets/profile-divider.svg" alt="Gradient divider" width="100%" />
 
 ## Architecture
 
 ```text
 ┌────────────────────────────┐
-│        React + Vite        │
+│ React + Vite · Native App  │
 │   discover · save · watch  │
 └──────────────┬─────────────┘
                │
