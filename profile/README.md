@@ -44,11 +44,11 @@ one product
 
 ### Aniraku / Native Android
 
-<p><strong>v3.1 is the current stable direct-distribution release.</strong><br/>The Expo and React Native client brings Aniraku discovery, explicit direct, Aniraku-proxy, and verified embedded source eligibility, proxy-native playback, selectable Kiwi embedded quality variants, complete website-provider parity, repaired AniSkip timing, responsive high-episode-count navigation, selected-episode information, resilient public Downloads-folder saves for eligible direct sources, and the same protected AniList/MyAnimeList library-sync route used by aniraku.tech to Android 9+ devices.</p>
+<p><strong>v4.0 is the current stable direct-distribution release.</strong><br/>The Expo and React Native client keeps Aniraku discovery, explicit direct, Aniraku-proxy, and verified embedded source eligibility, proxy-native playback, selectable Kiwi embedded quality variants, AniSkip timing, public Downloads-folder saves for eligible direct sources, and the protected AniList/MyAnimeList library-sync route used by aniraku.tech. Its Watch route now keeps Audio &amp; Provider in a bounded sheet with fixed SUB/DUB controls and independently scrolling provider choices, while high-episode titles avoid repeated episode-list work during playback.</p>
 
 <p>
   <a href="https://aniraku.github.io/Aniraku-App/"><img src="https://img.shields.io/badge/App%20site-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Aniraku Android app site" /></a>
-  <a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v3.1"><img src="https://img.shields.io/badge/v3.1-FF4D4D?style=flat-square&logo=github&logoColor=111827" alt="Aniraku v3.1 stable release" /></a>
+  <a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v4.0"><img src="https://img.shields.io/badge/v4.0-FF4D4D?style=flat-square&logo=github&logoColor=111827" alt="Aniraku v4.0 stable release" /></a>
   <a href="https://rookieenough.github.io/Orion-Data/redirect.html?id=aniraku"><img src="https://img.shields.io/badge/Orion%20Store-111827?style=flat-square&logo=android&logoColor=96D37B" alt="Get Aniraku on Orion Store" /></a>
 </p>
 
