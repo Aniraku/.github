@@ -12,7 +12,9 @@ Open-source anime discovery and viewing for the web and Android.
 &nbsp; · &nbsp;
 <a href="https://github.com/Aniraku">Browse the organization</a>
 &nbsp; · &nbsp;
-<a href="https://discord.gg/aniraku">Community</a>
+<a href="https://github.com/Aniraku/Aniraku/discussions">GitHub Discussions</a>
+&nbsp; · &nbsp;
+<a href="https://discord.gg/aniraku">Community chat</a>
 
 </div>
 
@@ -65,5 +67,7 @@ If you want to improve the project, start with the repository that matches the c
 - [Android contribution guide](https://github.com/Aniraku/Aniraku-App/blob/main/CONTRIBUTING.md)
 
 For a bug report, include the repository, route or screen, device/browser, reproduction steps, and relevant logs. For security issues, follow the security policy in the affected project instead of posting sensitive details publicly.
+
+For ideas, feature requests, and broader project conversation, join the public [Aniraku Discussions](https://github.com/Aniraku/Aniraku/discussions) space.
 
 <div align="center"><sub>Aniraku · open source · web + backend + Android</sub></div>
