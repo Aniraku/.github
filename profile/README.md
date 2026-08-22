@@ -40,9 +40,9 @@ The work is open source, and each repository has its own contribution notes and 
 
 ## Android release
 
-The current Android release is **v4.2** for package `aniraku.anime.app`. It supports Android 9+ on ARM32 and ARM64 devices.
+The current Android release is **v4.3** for package `aniraku.anime.app`. It supports Android 9+ on ARM32 and ARM64 devices.
 
-<a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v4.2"><img src="https://img.shields.io/badge/DOWNLOAD-v4.2-111827?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Download Aniraku Android v4.2" /></a>
+<a href="https://github.com/Aniraku/Aniraku-App/releases/tag/v4.3"><img src="https://img.shields.io/badge/DOWNLOAD-v4.3-111827?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Download Aniraku Android v4.2" /></a>
 <a href="https://rookieenough.github.io/Orion-Data/redirect.html?id=aniraku"><img src="https://img.shields.io/badge/GET%20IT%20FROM-Orion%20Store-111827?style=for-the-badge&logo=android&logoColor=96D37B" alt="Get Aniraku from Orion Store" /></a>
 
 The release includes the native player, watch-history recovery, Relationships, provider and audio controls, AniSkip, fullscreen playback, list synchronization, and Downloads for eligible progressive sources.
